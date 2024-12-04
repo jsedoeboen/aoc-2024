@@ -1,5 +1,3 @@
-from re import search
-
 WORD = "XMAS"
 
 # file =  open("example_input.txt", 'r')
