@@ -1,5 +1,5 @@
-file =  open("example_input.txt", 'r')
-# file =  open("input.txt", 'r')
+# file =  open("example_input.txt", 'r')
+file =  open("input.txt", 'r')
 lines = file.readlines()
 
 rules = []
