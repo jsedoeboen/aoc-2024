@@ -1,5 +1,3 @@
-import functools
-
 # file = open("example_input.txt", 'r')
 file =  open("input.txt", 'r')
 line = file.readline()
@@ -24,4 +22,5 @@ def blink(stone, iterations):
     return val
 
 result = sum(blink(stone, 75) for stone in stones)
+
 print(result)
